@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎬 Movie Recommendation App</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #1f1c2c, #928dab);
+        margin: 0;
+        padding: 0;
+        color: white;
+        text-align: center;
+    }
+    header {
+        padding: 20px;
+        font-size: 2rem;
+        font-weight: bold;
+        background: rgba(0,0,0,0.4);
+    }
+    .movie-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    .movie-card {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        width: 220px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+    .movie-card:hover {
+        transform: scale(1.05);
+    }
+    .movie-card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .movie-card h3 {
+        margin: 10px;
+        font-size: 1.2rem;
+    }
+    .movie-card p {
+        margin: 0 10px 10px;
+        font-size: 0.9rem;
+        opacity: 0.8;
+    }
+</style>
+</head>
+<body>
+
+<header>🎬 Movie Recommendation App</header>
+
+<div class="movie-container">
+    <div class="movie-card">
+        <img src="https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_SY679_.jpg" alt="Inception">
+        <h3>Inception</h3>
+        <p>Year: 2010</p>
+    </div>
+    <div class="movie-card">
+        <img src="https://m.media-amazon.com/images/I/71n58fPZ2GL._AC_SY679_.jpg" alt="Interstellar">
+        <h3>Interstellar</h3>
+        <p>Year: 2014</p>
+    </div>
+    <div class="movie-card">
+        <img src="https://m.media-amazon.com/images/I/51K8ouYrHeL._AC_SY679_.jpg" alt="The Dark Knight">
+        <h3>The Dark Knight</h3>
+        <p>Year: 2008</p>
+    </div>
+    <div class="movie-card">
+        <img src="https://m.media-amazon.com/images/I/81ExhpBEbHL._AC_SY679_.jpg" alt="Avengers: Endgame">
+        <h3>Avengers: Endgame</h3>
+        <p>Year: 2019</p>
+    </div>
+    <div class="movie-card">
+        <img src="https://m.media-amazon.com/images/I/71pV9BM9V5L._AC_SY679_.jpg" alt="Titanic">
+        <h3>Titanic</h3>
+        <p>Year: 1997</p>
+    </div>
+    <div class="movie-card">
+        <img src="https://m.media-amazon.com/images/I/51EG732BV3L._AC_.jpg" alt="The Matrix">
+        <h3>The Matrix</h3>
+        <p>Year: 1999</p>
+    </div>
+</div>
+
+</body>
+</html>
